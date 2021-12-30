@@ -1,12 +1,12 @@
 // Manera 1
 
 
-let fs = require('fs');  // importo libreria para leer archivos de texto
+//let fs = require('fs');  // importo libreria para leer archivos de texto
 
-let obj_json = fs.readFileSync('./servicios/tareas.json');  // Leo el archivo con o sin 'utf-8'
-let obj_literal = JSON.parse(obj_json);  // convierto el archivo
+//let obj_json = fs.readFileSync('./servicios/tareas.json');  // Leo el archivo con o sin 'utf-8'
+//let obj_literal = JSON.parse(obj_json);  // convierto el archivo a array
 
-console.log(obj_literal);
+//console.log(obj_literal);
 
 
 
